@@ -25,6 +25,8 @@ const updateNews = async () => {
 
   props.setProgress(100);
 }
+
+
 useEffect(() => {
   document.title = `${props.category} - NewsDaily`;
 
