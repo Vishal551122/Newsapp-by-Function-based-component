@@ -13,8 +13,8 @@ import LoadingBar from 'react-top-loading-bar'
 
 const App=()=> {
  const pageSize=5;
- const apikey=process.env.REACT_APP_NEWS_API   //yaha y api ko .env.local s lera h
-
+//  const apikey=process.env.REACT_APP_NEWS_API   //yaha y api ko .env.local s lera h
+const apikey="fc4fec0a2ed04309951703c7ef856928"
   const [progress,setProgress]=useState(0)
   
 
